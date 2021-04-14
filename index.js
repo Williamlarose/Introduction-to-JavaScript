@@ -18,6 +18,11 @@ Do the following:
    HINT: no function required
 */
 
+var votingAge = 16;
+console.log(votingAge);
+if(votingAge>17){console.log(`then they can vote`)}
+else if(votingAge<18){console.log(`Minors`)}
+
 
 
 /*
@@ -30,7 +35,13 @@ Do the following:
 
    HINT: no function required
 */
+  var stuff = 10
+  var mystuff = 5
+  
+ if(mystuff<6){console.log(`$stuff=15`)}
+  
 
+  
 
 
 
@@ -58,10 +69,12 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
+function multiply(/*add your code here*/a,b){
+  var answ = a*b
+  return answ
     /*add your code here*/
-  }
-
+  } 
+multiply(6,6);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -74,11 +87,11 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(/*add your code here*/a){ var dyears=a*7
+    /*add your code here*/ return dyears
 }
 
-
+dogYears(10)
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -151,11 +164,11 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
+function miles(/*add your code here*/km){var travel = km*0.621371
+    /*add your code here*/return travel
   }
 
-
+miles(3)
 
 //Task 5b - Feet to CM
 /*
@@ -165,11 +178,11 @@ Using the feet function below do the following:
   3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-    /*add your code here*/
+function feet(/*add your code here*/cm){ var line= cm /30.48
+    /*add your code here*/ return line
   }
  
-
+feet(30)
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -201,11 +214,11 @@ Using the grade function below do the following:
    below should return 'you got an F'
 */
   
-function grade(/*Your Code here */){
+function grade(/*Your Code here */score){ 
   /*Your Code here */
   }
   
-  
+  i{}
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
 
